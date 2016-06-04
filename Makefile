@@ -1,5 +1,5 @@
 REPOSITORY = xqdocker/ubuntu-mysql-5.5
-VERSION = cat VERSION
+VERSION = `cat VERSION`
 
 image:
 	docker build -t $(REPOSITORY) .
